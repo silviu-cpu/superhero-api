@@ -1,5 +1,6 @@
 /* eslint-disable prettier/prettier */
 import { Injectable } from '@nestjs/common';
+import { SuperheroResponseDto } from '../dto/superhero-response.dto';
 
 interface Superhero {
   id: number;
